@@ -37,6 +37,17 @@ public class Main {
         System.out.println(c1);
         System.out.println(b2);
 
+        // задача 3
+
+        int ludmilaPav = 23;
+        int annaSer = 27;
+        int ekaterinaAnd = 30;
+        int paper = 480;
+        int pupils = ludmilaPav + annaSer + ekaterinaAnd;
+        int numberOfSheets = paper / pupils;
+        System.out.println("На каждого ученика рассчитано " + numberOfSheets + " листов бумаги");
+
+
 
     }
 }
