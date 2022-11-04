@@ -14,6 +14,18 @@ public class Main {
         System.out.println("double = " + j);
 
 
+        // задача 5
+
+        int banks = 120;
+        int whitePaint = 2;
+        int brownPaint = 4;
+        int overallColor = whitePaint + brownPaint;
+        int totalClasses = banks / overallColor;
+        int oneClassWhite = totalClasses * whitePaint;
+        int oneClassBrown = totalClasses * brownPaint;
+        System.out.println("В школе, где " + totalClasses + " классов, нужно "  + oneClassWhite + " банок белой краски и " + oneClassBrown + " банок коричневой краски.");
+
+
 
     }
 }
