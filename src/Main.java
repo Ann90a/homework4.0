@@ -83,7 +83,7 @@ public class Main {
         int totalClasses = banks / overallColor;
         int oneClassWhite = totalClasses * whitePaint;
         int oneClassBrown = totalClasses * brownPaint;
-        System.out.println("В школе, где " + totalClasses + " классов, нужно "  + oneClassWhite + " банок белой краски и " + oneClassBrown + " банок коричневой краски");
+        System.out.println("В школе, где " + totalClasses + " классов, нужно "  + oneClassWhite + " банок белой краски и " + oneClassBrown + " банок коричневой краски.");
 
 
 
