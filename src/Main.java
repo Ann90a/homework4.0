@@ -47,6 +47,38 @@ public class Main {
         int numberOfSheets = paper / pupils;
         System.out.println("На каждого ученика рассчитано " + numberOfSheets + " листов бумаги");
 
+        // задача 4
+
+        int performance = 16;
+        int minutes = 2;
+        int oneBottleCapacity = performance / minutes;
+        int oneMinute = 60;
+
+        int time1 = 20;
+        String time11 = time1 + (" минут");
+        int result1 = time1 * oneBottleCapacity;
+        System.out.println("За " + time11 + " машины произвела бутылок " + result1 + " штук");
+
+        int time2 = 24;
+        String time12 = (" 1 сутки");
+        int result2 = time2 * oneMinute * oneBottleCapacity;
+        System.out.println("За " + time12 + " машины произвела бутылок " + result2 + " штук");
+
+        int time3 = 3;
+        String time13 = time3 + (" три дня");
+        int result3 = time2 * oneMinute * time3 * oneBottleCapacity;
+        System.out.println("За " + time13 + " машины произвела бутылок " + result3 + " штук");
+
+        int time4 = 30;
+        String time14 = time4 + (" один месяц");
+        int result4 = time2 * oneMinute * time4 * oneBottleCapacity;
+        System.out.println("За " + time14 + " машины произвела бутылок " + result4 + " штук");
+
+        // задача 5
+
+
+
+
 
 
     }
