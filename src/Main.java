@@ -91,6 +91,16 @@ public class Main {
         int oneClassBrown = totalClasses * brownPaint;
         System.out.println("В школе, где " + totalClasses + " классов, нужно "  + oneClassWhite + " банок белой краски и " + oneClassBrown + " банок коричневой краски.");
 
+        //задача 6
+
+        int bananas = 80 * 5;
+        int milk = 105 * 2;
+        int iceCream = 100  * 2;
+        int egg = 70 * 4;
+        int inGrams = bananas + milk + iceCream + egg;
+        float inKilograms = inGrams / 1000F;
+        System.out.println("Вес спорт-завтрака " + inGrams + " грамм, в килограммах - " + inKilograms + " килограмм");
+
 
 
     }
