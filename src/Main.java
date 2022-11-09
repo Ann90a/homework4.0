@@ -112,10 +112,9 @@ public class Main {
         double onAverageDays = (double) weightLoss / gramsAverage;
         System.out.print("В среднем на похудение потребуется ");
         System.out.printf("%.1f", onAverageDays);
-        System.out.print(" дней");
+        System.out.print(" дней.");
 
-
-    }
+        }
     }
 
 
