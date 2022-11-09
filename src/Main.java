@@ -4,14 +4,14 @@
 public class Main {
     public static void main(String[] args) {
         int a = 123456789;
-        byte b = 113;
+        byte z = 113;
         short c = 27778;
         long d = -9876544322198L;
         float f = 1.5F;
         double j = 2.5;
 
         System.out.println("int = " + a);
-        System.out.println("byte = " + b);
+        System.out.println("byte = " + z);
         System.out.println("short = " + c);
         System.out.println("long = " + d);
         System.out.println("float = " + f);
@@ -76,12 +76,6 @@ public class Main {
 
         // задача 5
 
-
-
-
-
-        // задача 5
-
         int banks = 120;
         int whitePaint = 2;
         int brownPaint = 4;
@@ -101,7 +95,28 @@ public class Main {
         float inKilograms = inGrams / 1000F;
         System.out.println("Вес спорт-завтрака " + inGrams + " грамм, в килограммах - " + inKilograms + " килограмм");
 
+        // задача 7
+
+        int weightLoss = 7000;
+        int weightLossPerDay1 = 250;
+        int weightLossPerDay2 = 500;
+        int conclusion1 = weightLoss / weightLossPerDay1;
+        System.out.println("Если спорьсмен будет терять 250 грамм каждый день, на похудение уйдет " + conclusion1 + " дней");
+
+        int conclusion2 = weightLoss / weightLossPerDay2;
+        System.out.println("Если спорьсмен будет терять 500 грамм каждый день, на похудение уйдет" + conclusion2 + " дней");
+
+        int gramsAverage = (weightLossPerDay1 + weightLossPerDay2) / 2;
+        System.out.println("Среднее количество равно " + gramsAverage + " грамм");
+
+        double onAverageDays = (double) weightLoss / gramsAverage;
+        System.out.print("В среднем на похудение потребуется ");
+        System.out.printf("%.1f", onAverageDays);
+        System.out.print(" дней");
 
 
     }
-}
+    }
+
+
+
